@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { supabase } from "@/lib/supabase";
+import RegistrationForm from "@/components/registration-form";
 
 type EventPageProps = {
   params: Promise<{
@@ -90,9 +91,16 @@ export default async function EventPage({ params }: EventPageProps) {
               </p>
             </div>
 
-            <button className="mt-8 rounded-xl bg-blue-500 px-6 py-3 font-semibold transition hover:bg-blue-400">
-              Register Now
-            </button>
+            <div className="mt-10 border-t border-white/10 pt-8">
+              <h2 className="text-2xl font-semibold">About this event</h2>
+
+              <p className="mt-4 max-w-3xl leading-8 text-slate-400">
+                {event.description}
+              </p>
+            </div>
+
+            <RegistrationForm eventId={event.id} />
+
           </div>
         </div>
       </section>
