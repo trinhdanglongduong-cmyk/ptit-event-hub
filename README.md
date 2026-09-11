@@ -10,12 +10,19 @@ https://ptit-event-hub.vercel.app/
 
 ## Features
 -Browse upcoming PTIT events
+
 -Search events by title and description
+
 -Filter events by category
+
 -View detailed event information
+
 -Register for events
+
 -Prevent duplicate registrations
+
 -Responsive design for desktop and mobile
+
 -Custom loading and not-found states
 
 ## Tech Stack
