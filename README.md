@@ -49,12 +49,19 @@ https://ptit-event-hub.vercel.app/
 Stores information about available events.
 
 -id
+
 -title
+
 -description
+
 -category
+
 -location
+
 -event_date
+
 -image_url
+
 -created_at
 
 # Registrations
@@ -62,10 +69,15 @@ Stores information about available events.
 Stores student registrations.
 
 -id
+
 -event_id
+
 -full_name
+
 -email
+
 -phone
+
 -created_at
 
 
@@ -77,17 +89,29 @@ Unique constraint on (event_id, email) to prevent duplicate registrations
 
 ## Main User Flow
 Homepage
+
    ↓
+   
 Search / Filter Events
+
    ↓
+
 Select Event
+
    ↓
+   
 Event Detail
+
    ↓
+   
 Registration Form
+
    ↓
+   
 Supabase
+
    ↓
+   
 Registration Saved
 
 ## Getting Started
