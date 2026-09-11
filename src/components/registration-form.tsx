@@ -34,10 +34,17 @@ export default function RegistrationForm({
 
     if (error) {
       console.error("Registration error:", error);
-      setError(error.message);
+
+      if (error.code === "23505") {
+        setError("You are already registered for this event.");
+      } else {
+        setError(error.message);
+      }
+
       setLoading(false);
       return;
     }
+
 
     setMessage("Registration successful! 🎉");
     setName("");
