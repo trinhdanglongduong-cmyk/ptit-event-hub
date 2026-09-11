@@ -32,7 +32,7 @@ PostgreSQL
 
 ## Live Demo
 
-[Your Vercel URL]
+https://ptit-event-hub.vercel.app/
 
 ## Getting Started
 
