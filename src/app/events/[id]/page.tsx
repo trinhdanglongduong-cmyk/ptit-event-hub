@@ -18,7 +18,6 @@ export default async function EventPage({ params }: EventPageProps) {
     .single();
 
   if (error || !event) {
-    console.error("Supabase error:", error);
     notFound();
   }
 
