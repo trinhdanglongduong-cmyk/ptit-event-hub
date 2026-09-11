@@ -164,7 +164,7 @@ Possible improvements for future versions:
 -Event registration history
 -Better accessibility support
 
-##Author
+## Author
 
 Built as a learning and portfolio project by a PTIT student.
 
