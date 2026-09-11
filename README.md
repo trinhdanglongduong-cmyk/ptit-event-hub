@@ -20,12 +20,19 @@ https://ptit-event-hub.vercel.app/
 
 ## Tech Stack
 -Next.js — React framework and routing
+
 -React — UI development
+
 -TypeScript — Type safety
+
 -Tailwind CSS — Styling and responsive UI
+
 -Supabase — Backend and database
+
 -PostgreSQL — Relational data storage
+
 -Vercel — Deployment
+
 ## Architecture
                     ┌─────────────────┐
                     │     Next.js     │
