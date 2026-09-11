@@ -80,9 +80,10 @@ export default function EventList({ events }: EventListProps) {
       {filteredEvents.length > 0 ? (
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {filteredEvents.map((event) => (
-            <article
+            <a
               key={event.id}
-              className="overflow-hidden rounded-2xl border border-white/10 bg-white/5 transition hover:-translate-y-1 hover:border-blue-400/40"
+              href={`/events/${event.id}`}
+              className="block overflow-hidden rounded-2xl border border-white/10 bg-white/5 transition hover:-translate-y-1 hover:border-blue-400/40"
             >
               <div className="h-48 overflow-hidden bg-slate-800">
                 {event.image_url ? (
@@ -124,7 +125,7 @@ export default function EventList({ events }: EventListProps) {
                   </p>
                 </div>
               </div>
-            </article>
+            </a>
           ))}
         </div>
       ) : (
