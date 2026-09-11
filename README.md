@@ -35,7 +35,7 @@ Architecture
                              ▼
                     ┌─────────────────┐
                     │     Supabase    │
-                    │    PostgreSQL    
+                    │    PostgreSQL   │
                     └────────┬────────┘
                              │
                  ┌───────────┴───────────┐
